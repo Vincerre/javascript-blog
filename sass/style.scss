@@ -118,3 +118,39 @@ body {
     margin: 0 10px 0 0;
   }
 }
+
+.sidebar .tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.sidebar .tags li {
+  line-height: 1;
+  margin-right: 5px;
+}
+
+.tag-size-1 {
+  color: red;
+  font-size: 120%;
+}
+
+.tag-size-2 {
+  color: orange;
+  font-size: 140%;
+}
+
+.tag-size-3 {
+  color: violet;
+  font-size: 160%;
+}
+
+.tag-size-4 {
+  color: green;
+  font-size: 180%;
+}
+
+.tag-size-5 {
+  color: blue;
+  font-size: 200%;
+}
