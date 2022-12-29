@@ -92,10 +92,13 @@ body {
 }
 
 /* Authors */
-
+.authors {
+  display: flex;
+  flex-wrap: wrap;
+}
 .authors {
   li {
-    margin-bottom: 12px;
+  line-height: 1.2;
   }
 }
 
